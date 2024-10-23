@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <a href="/download">Download Image</a>
+</head>
+<body>
+    <h1>Welcome to the Home Page</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <form action="/submit" method="POST">
+            <input type="text" name="data" placeholder="Enter something">
+            <button type="submit">Submit</button>
+        </form>
+    </nav>
+</body>
+</html>
